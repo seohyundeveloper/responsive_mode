@@ -1,0 +1,13 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded", // expanded, compact
+      "extensionName": ".css", // 파일이름 min.css 등
+     // "savePath": "~/../", // 현재SCSS파일 위치로부터 상대경로
+      "savePath": "/css", // Root경로 절대경로
+      "savePathReplacementPairs": null
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveServer.settings.port": 5501,
+}
