@@ -527,6 +527,10 @@
     font-weight: 500;
   }
   @media screen and (width < 900px) {
+    .footer-img {
+      width: 100%;
+      height: auto;
+    }
     .footer-info {
       margin: 0;
       background-color: var(--gray3f);
