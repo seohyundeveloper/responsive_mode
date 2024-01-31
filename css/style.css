@@ -524,6 +524,32 @@
   .only-mobile__select:focus {
     outline: none;
   }
+  input[type=checkbox] {
+    position: relative;
+    left: -3000%;
+  }
+  input[type=checkbox]:checked + label:before {
+    content: url(../../images/ico_checked.svg);
+  }
+  input[type=checkbox] + label::before {
+    content: "";
+    display: inline-block;
+    margin: 0 0.5rem 0 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 0.1rem solid var(--graye1);
+    background-color: var(--grayfa);
+    vertical-align: middle;
+    position: relative;
+    top: -0.1rem;
+  }
+  .txt-checkbox {
+    color: var(--gray66);
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+    letter-spacing: -0.07rem;
+  }
   @media screen and (width < 900px) {
     .form {
       border: 0.2rem solid var(--graye1);
