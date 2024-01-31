@@ -247,6 +247,62 @@
   }
 }
 @layer Button {
+  .btn {
+    width: 11rem;
+    height: 4.4rem;
+    padding: 1.5rem;
+    border-radius: 2.2rem;
+    background: #FFF;
+  }
+  @media screen and (width < 900px) {
+    .btn {
+      width: 18rem;
+      height: 7rem;
+      border-radius: 10.8rem;
+    }
+  }
+  .yellow {
+    border: 0.2rem solid var(--yellow);
+    color: var(--yellow);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.032rem;
+  }
+  @media screen and (width < 900px) {
+    .yellow {
+      font-size: 2.6rem;
+      letter-spacing: -0.052rem;
+    }
+  }
+  .gray {
+    border: 0.2rem solid var(--graye0);
+    color: var(--gray99);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.032rem;
+  }
+  .btn-full__login {
+    background: var(--gray33);
+    width: 100%;
+    padding: 1.2rem 0;
+    color: var(--white);
+  }
+  .regular {
+    height: 6rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 180%;
+    letter-spacing: -0.096rem;
+  }
+  @media screen and (width < 900px) {
+    .regular {
+      height: 10rem;
+      font-size: 2.6rem;
+      letter-spacing: -0.156rem;
+    }
+  }
   .btn-login {
     display: inline-flex;
     align-items: center;
@@ -451,6 +507,22 @@
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.6rem;
+  }
+  .only-mobile__select {
+    width: 66rem;
+    height: 9rem;
+    border: 0.2rem solid var(--graye1);
+    background-color: var(--grayfa);
+    background: url(../../images/ico_arrow-down.svg) no-repeat right 3rem center/2.2rem auto;
+    color: var(--gray33);
+    font-size: 2.8rem;
+    line-height: 100%;
+    letter-spacing: -0.14rem;
+    padding: 3.1rem 3rem;
+    box-sizing: border-box;
+  }
+  .only-mobile__select:focus {
+    outline: none;
   }
   @media screen and (width < 900px) {
     .form {
