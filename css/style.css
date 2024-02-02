@@ -250,7 +250,7 @@
   .btn {
     width: 11rem;
     height: 4.4rem;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     border-radius: 2.2rem;
     background: #FFF;
   }
@@ -317,7 +317,7 @@
     content: "";
     width: 1.6rem;
     height: 1.9rem;
-    background: url(/images/ico_login.svg) no-repeat 0 0/contain;
+    background: url(../images/ico_login.svg) no-repeat 0 0/contain;
   }
   @media screen and (width < 900px) {
     .btn-login {
@@ -348,20 +348,20 @@
     content: "";
     width: 1.6rem;
     height: 1.9rem;
-    background: url(/images/ico_sitemap.svg) no-repeat 0 0/contain;
+    background: url(../images/ico_sitemap.svg) no-repeat 0 0/contain;
   }
   @media screen and (width < 900px) {
     .btn-sitemap::before {
       width: 9rem;
       height: 9rem;
-      background: url(/images/ico_sitemap_white.svg) no-repeat center/2.8rem auto;
+      background: url(../images/ico_sitemap_white.svg) no-repeat center/2.8rem auto;
     }
   }
   .btn-search {
     display: none;
     width: 9rem;
     height: 9rem;
-    background: url(/images/ico_search.svg) no-repeat center/3.0414rem auto;
+    background: url(../images/ico_search.svg) no-repeat center/3.0414rem auto;
   }
   @media screen and (width < 900px) {
     .btn-search {
@@ -452,19 +452,19 @@
     }
   }
   .bg1 .visual__img::after {
-    content: url("/images/img_visual1.png");
+    content: url("../images/img_visual1.png");
   }
   .bg2 .visual__img::after {
-    content: url("/images/img_visual2.png");
+    content: url("../images/img_visual2.png");
   }
   .bg3 .visual__img::after {
-    content: url("/images/img_visual3.png");
+    content: url("../images/img_visual3.png");
   }
   .bg4 .visual__img::after {
-    content: url("/images/img_visual4.png");
+    content: url("../images/img_visual4.png");
   }
   .bg5 .visual__img::after {
-    content: url("/images/img_visual5.png");
+    content: url("../images/img_visual5.png");
   }
 }
 @layer Form {
@@ -513,7 +513,7 @@
     height: 9rem;
     border: 0.2rem solid var(--graye1);
     background-color: var(--grayfa);
-    background: url(/images/ico_arrow-down.svg) no-repeat right 3rem center/2.2rem auto;
+    background: url(../images/ico_arrow-down.svg) no-repeat right 3rem center/2.2rem auto;
     color: var(--gray33);
     font-size: 2.8rem;
     line-height: 100%;
@@ -529,7 +529,7 @@
     left: -3000%;
   }
   input[type=checkbox]:checked + label:before {
-    content: url(/images/ico_checked.svg);
+    content: url(../images/ico_checked.svg);
   }
   input[type=checkbox] + label::before {
     content: "";
